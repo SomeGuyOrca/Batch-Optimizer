@@ -1,5 +1,5 @@
 @echo off 
-echo I would recommned you to create a restore point before starting this script
+echo I would recommned you to create a restore point before starting this script and read the MUSTREAD.md file 
 pause
 cls
 echo press to enable high performance power plan
