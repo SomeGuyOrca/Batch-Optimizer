@@ -1,31 +1,38 @@
 @echo off 
-echo I would recommned you to create a restore point before starting this script and read the MUSTREAD.md file 
-pause
-cls
-echo press to enable high performance power plan
-pause            
-cls
-powercfg -duplicatescheme 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
-pause
-cls
+:tweaks     
+echo                                                      Welcome to  
+echo                                                      BATCH-OPTIMIZER
+echo.
+echo.
+echo.
 
-echo press to disable all background apps
+echo                                       [ 1 ] Power plan          [ 3 ] Removing useless files
+echo. 
+echo                                       [ 2 ] Error checking      [ 4 ] Disabling background apps 
+
+echo. 
+echo                              { Type close to Exit } 
+
+
+set /p optimization= 
+ 
+if %optimization% == close exit 
+if %optimization% == 1 powercfg -duplicatescheme 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
+echo. 
 pause
 cls
-Reg Add HKCU\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications /v GlobalUserDisabled /t REG_DWORD /d 1 /f
+goto tweaks
+if %optimization% == 2 DISM /Online /Cleanup-Image /ScanHealth
 pause
 cls
+goto tweaks
+if %optimization% == 3 del /q/f/s %TEMP%\* 
 pause
-
-echo press to delete all temporary files ( not important files )
-
+cls
+goto tweaks
+if %optimization% == 4 Reg Add HKCU\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications /v GlobalUserDisabled /t REG_DWORD /d 1 /f
 pause 
-
-del /q/f/s %TEMP%\*
-
-pause 
-echo fix registry corrupt files ( only do if your pc/laptop is really slow )
 cls
-
-DISM /Online /Cleanup-Image /ScanHealth
-pause
+goto tweaks   
+cls 
+pause 
