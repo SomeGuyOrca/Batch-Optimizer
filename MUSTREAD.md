@@ -4,3 +4,4 @@
 to create a restore point go to search panel > create a restore point > and click create
 #3 Make sure to run as admin to make sure it works
 and after running restart your pc/laptop and go to search panel > search choose a power plan > click additional plans > choose high performance
+#4 REMEMBER ANY PROBLEMS DONE TO YOUR PC IS NOT MY FAULT
