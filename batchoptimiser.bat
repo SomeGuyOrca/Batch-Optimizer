@@ -1,4 +1,5 @@
 @echo off 
+color b
 :tweaks     
 echo                                                      Welcome to  
 echo                                                      BATCH-OPTIMIZER
@@ -11,7 +12,7 @@ echo.
 echo                                       [ 2 ] Error checking      [ 4 ] Disabling background apps 
 
 echo. 
-echo                              { Type close to Exit } 
+echo                                      { Type close to Exit } 
 
 
 set /p optimization= 
@@ -36,3 +37,4 @@ cls
 goto tweaks   
 cls 
 pause 
+goto tweaks
