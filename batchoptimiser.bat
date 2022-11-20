@@ -1,5 +1,5 @@
 @echo off 
-color b
+color 3
 :tweaks     
 echo                                                      Welcome to  
 echo                                                      BATCH-OPTIMIZER
