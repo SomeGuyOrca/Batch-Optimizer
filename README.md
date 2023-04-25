@@ -15,6 +15,10 @@ And after running restart your pc/laptop and go to search panel > search choose 
 4 **REMEMBER ANY PROBLEMS DONE TO YOUR PC IS NOT MY FAULT**
 
 ## Uses
-> Can be used for slow/old computers in order to boost the speed.
+**> Can be used for slow/old computers in order to boost the speed.
+
+
 > Can be used by gamers in order to boost fps.
-> Can be used to fix windows/registry errors.
+
+
+> Can be used to fix windows/registry errors.**
