@@ -1,4 +1,5 @@
 @echo off
+start README.md
 echo open this file as an admin if you have not, if you did continue
 pause
 cls
