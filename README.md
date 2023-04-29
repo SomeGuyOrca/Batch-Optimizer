@@ -25,4 +25,4 @@ And after running restart your pc/laptop and go to search panel > search choose 
 
 # Notes
 
-> **Remember to only use this one windows 10 and above!
+> **Remember to only use this one windows 10 and above!**
