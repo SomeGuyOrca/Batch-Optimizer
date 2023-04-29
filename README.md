@@ -22,3 +22,7 @@ And after running restart your pc/laptop and go to search panel > search choose 
 
 
 > **Can be used to fix windows/registry errors.**
+
+# Notes
+
+> **Remember to only use this one windows 10 and above!
